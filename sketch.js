@@ -98,7 +98,7 @@ function draw() {
 
     image(title, width/2, title.height*0.7);
     push();
-    translate(width-stamp.width*1,height-height/4)
+    translate(width-stamp.width*0.75,height-height/4)
     rotate(10)
     image(stamp,0,0)
     pop();
